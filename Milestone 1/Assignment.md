@@ -1,55 +1,82 @@
 ### 20 Questions
 
-Ans 1- 
+Ans 1 - 
+```
 const arr = Array()
-
-Ans 2- const numbers = [0, 3.1, 9.8, 3, 9.6, 10] 
-
-Ans 3- var n=numbers.length
-
-
-Ans 4- 
+```
+Ans 2 - 
+```
+const numbers = [2, 12.4, 6.6, 6, 10.6, 5,4] 
+```
+Ans 3 - 
+```
+var n=numbers.length
+```
+Ans 4 -
+```
 var n=numbers.length
 start = numbers[0]
 end = numbers[n]
 mid = numbers[n/2]
-
-Ans 5- const mixedDataTypes=['karnika','12', 'student',6,'bv', 12.45]
-       mixedDataTypes.length
-
-Ans 6- 
-
+```
+Ans 5 - 
+```
+const mixedDataTypes=['karnika','12', 'student',6,'bv', 12.45]
+mixedDataTypes.length
+```
+Ans 6 - 
+```
 const itCompanies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
-
-Ans 7- console.log(itCompanies)
-
-Ans 8- const n=itCompanies.length
+```
+Ans 7 - 
+```
+console.log(itCompanies)
+```
+Ans 8 - 
+```
+const n=itCompanies.length
 console.log(n)
-
-Ans 9- console.log(itCompanies[0])
+```
+Ans 9 - 
+```
+console.log(itCompanies[0])
 console.log(itCompanies[n])
 console.log(itCompanies[n/2])
-
-Ans 10- for (let i = 0; i <n; i++) {
+```
+Ans 10 - 
+```
+for (let i = 0; i <n; i++) {
   console.log(itCompanies[i]);
 }
-
-Ans 11-for (let i = 0; i <n; i++) {
+```
+Ans 11 -
+```
+for (let i = 0; i <n; i++) {
   console.log(itCompanies[i].toUpperCase());
 }
+```
+Ans 14 - 
+```
+const dog = {}
+```
+Ans 15 - 
+```
+console.log(dog)
+```
+Ans 16 -
+```
+const dog = {
+name : 'Tuffy';
 
-Ans 14- var dog = {}
-
-Ans 15- console.log(dog)
-
-Ans 27- 
+Ans 27 -
+```
 function generateRandomColor()
 {
     var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
     return randomColor;
     
 }
-
+```
 Ans 28- 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
