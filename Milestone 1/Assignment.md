@@ -66,8 +66,23 @@ console.log(dog)
 Ans 16 -
 ```
 const dog = {
-name : 'Tuffy';
-
+    name : 'Tuffy',
+    legs: 4,
+    color: 'Brown',
+    age: 10,
+    bark: function() {
+    return 'woof woof'
+    },
+}
+```  
+Ans 17 - 
+```
+console.log(dog.name)
+console.log(dog.legs)
+console.log(dog.color)
+console.log(dog.age)
+console.log(dog.bark())
+```
 Ans 27 -
 ```
 function generateRandomColor()
@@ -77,7 +92,8 @@ function generateRandomColor()
     
 }
 ```
-Ans 28- 
+Ans 28 - 
+```
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -86,18 +102,24 @@ function shuffleArray(array) {
         array[j] = temp;
     }
 }
-
-Ans 29- function factorial(n) {
-  if (n == 0) return 1;
+```
+Ans 29 - 
+```
+function factorial(n) {
+  if (n == 0) 
+    return 1;
   return n * factorial(n - 1);
 }
-
-Ans 30- 
+```
+Ans 30 -
+```
 function isEmpty(val){
     return (val === undefined || val == null || val.length <= 0) ? true : false;
 }
-
-Ans 31- function average(array) {
+```
+Ans 31 - 
+```
+function average(array) {
     var num=0;
     for (var i=1;i<=array.length;i++) 
     if(Number.isInteger(array[i])==false)
@@ -108,11 +130,12 @@ Ans 31- function average(array) {
     var divide=num/array.length;
     console.log(divide);
 }
-
+```
 Ans 45-
 find() - used to find all the descendant elements of the selected element. 
 filter()- used to filters all the elements and returns the element that matches and the element that do not match are removed.
 findIndex()- returns the index of the first element in the array that satisfies the provided testing function.
 
-Ans 46- every() function in JavaScript is used to checks whether all the elements of the array satisfy the given condition or not. 
+Ans 46- 
+every() function in JavaScript is used to checks whether all the elements of the array satisfy the given condition or not. 
 The some() method in JavaScript is used to check whether at least one of the elements of the array satisfies the given condition or not.
